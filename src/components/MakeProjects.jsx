@@ -49,7 +49,9 @@ const MakeProjects = () => {
             <div className="lg:mt-0 mt-[20px]">
                 <p className='text-[16px] font-Poppins font-normal text-[#fff] lg:text-start text-center'>Get in touch</p>
                 <div className="flex justify-center lg:justify-normal lg:mt-0 mt-[10px]">
-                  <button className=''><a href="#" className='text-[14px]  font-Poppins font-normal text-[#fff] bg-[#ffffff36] py-[5px] px-[10px] rounded-sm'>Contact</a></button>
+                <a href="mailto:mr.shoron.7514@gmail.com" className="text-[14px] font-Poppins font-normal text-[#fff] bg-[#ffffff36] py-[5px] px-[10px] rounded-sm inline-block">
+                  Contact
+                </a>
                 </div>
             </div>
           </div>

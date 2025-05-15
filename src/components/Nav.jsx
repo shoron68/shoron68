@@ -18,7 +18,7 @@ const Nav = () => {
                         <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Home</a></li>
                         <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >About</a></li>
                         <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Skills</a></li>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 py-[8px] px-[20px] rounded-[] bg-[#ffffff3f]  rounded-lg' >Hire Me</a></li>
+                        <li><a href="https://www.linkedin.com/in/musfiqur-rahman02/" target='blank' className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 py-[8px] px-[20px] rounded-[] bg-[#ffffff3f]  rounded-lg' >Hire Me</a></li>
                     </ul>
                 </div>
                 <div className="flex items-center gap-x-4 lg:hidden">
