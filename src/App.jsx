@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+    
     <Nav/>
     {!showContent && <Loader onFinish={() => setShowContent(true)} />}
       {showContent && <Hero showContent={showContent} />}

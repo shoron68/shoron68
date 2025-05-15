@@ -1,4 +1,4 @@
-import { FaReact, FaCss3, FaFigma,FaRegFileCode  } from "react-icons/fa";
+import { FaReact, FaCss3, FaFigma, FaRegFileCode } from "react-icons/fa";
 import { PiFileJsDuotone } from "react-icons/pi";
 import { RiTailwindCssFill, RiBootstrapLine } from "react-icons/ri";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -77,7 +77,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="600" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <RiTailwindCssFill />
                                 </div>
@@ -96,7 +96,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="1000" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <FaCss3 />
                                 </div>
@@ -134,7 +134,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="600" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <FaFigma />
                                 </div>
@@ -153,7 +153,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="1000" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <RiBootstrapLine />
                                 </div>
@@ -189,52 +189,52 @@ const Skills = () => {
                     </div>
                 </div>
 
-                            
+
                 <div className="grid lg:grid-cols-3 grid-rows-1 gap-12 mt-[150px] lg:mx-0 mx-[30px]">
                     <div >
                         <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
-  <div className="py-[20px] px-[20px] bg-[#212121] rounded-xl">
-    <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
-      <FaReact className="h-[40px] w-[40px] text-[#38a3a5]" />
-    </div>
-    <div className="mt-[25px]">
-      <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
-      <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">
-        I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.
-      </h4>
-    </div>
-  </div>
-</div>
+                            <div className="py-[20px] px-[20px] bg-[#212121] rounded-xl">
+                                <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
+                                    <FaReact className="h-[40px] w-[40px] text-[#38a3a5]" />
+                                </div>
+                                <div className="mt-[25px]">
+                                    <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
+                                    <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">
+                                        I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div >
                         <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
                             <div className="py-[20px] px-[20px] bg-[#212121] rounded-xl">
-                            <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
-                                <FaRegFileCode eact className="h-[40px] w-[40px] text-[#38a3a5] "/>
+                                <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
+                                    <FaRegFileCode eact className="h-[40px] w-[40px] text-[#38a3a5] " />
+                                </div>
+                                <div className="mt-[25px]">
+                                    <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
+                                    <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.</h4>
+                                </div>
                             </div>
-                            <div className="mt-[25px]">
-                                <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
-                                <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.</h4>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div >
-                        <div data-aos="zoom-in"   className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
+                        <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
                             <div className="py-[20px] px-[20px]  bg-[#212121] rounded-xl">
-                            <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
-                                <AiOutlineLayout eact className="h-[40px] w-[40px] text-[#38a3a5] "/>
+                                <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
+                                    <AiOutlineLayout eact className="h-[40px] w-[40px] text-[#38a3a5] " />
+                                </div>
+                                <div className="mt-[25px]">
+                                    <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
+                                    <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.</h4>
+                                </div>
                             </div>
-                            <div className="mt-[25px]">
-                                <h4 className="text-[16px] font-Poppins text-[#fff] font-light">Custom React JS Website</h4>
-                                <h4 className="text-[14px] mt-[20px] font-Poppins text-[#ffffffb2] font-light">I can build a custom React JS website with a modern, user-friendly UI/UX design and exceptional speed.</h4>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>
 
-                       
+
             </Container>
         </div>
     )

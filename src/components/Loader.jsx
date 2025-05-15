@@ -31,8 +31,8 @@ const Loader = ({ onFinish }) => {
     animate={
       isExpanded
         ? {
-            width: '3000px',
-            height: '3000px',
+            width: '100%',
+            height: '100%',
             transition: { duration: 1, ease: 'easeInOut' },
           }
         : {

@@ -5,6 +5,8 @@ import { FaStar } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import profile from "../assets/profile1.jpg"
+
 
 
 const Hero = ({showContent }) => {
@@ -38,12 +40,12 @@ const Hero = ({showContent }) => {
                 <div className="relative">
                     <div className="">
                         <span data-aos="fade-up" data-aos-delay="0" className='text-[#fff] font-Fira-Code lg:text-[18px] text-[16px] '><Typewriter options={{strings: [' console.log ("Hello")'], autoStart: true, loop: true,}}/></span>
-                        <h1 data-aos="fade-up" data-aos-delay="600" className='lg:text-[60px] text-[26px] font-Audiowide text-[#fff] z-10 uppercase '>I <span className='text-[#80ed99]'>AM</span> <br/> Musfiqur Rahman</h1>
+                        <h1 data-aos="fade-up" data-aos-delay="200" className='lg:text-[60px] text-[26px] font-Audiowide text-[#fff] z-10 uppercase '>I <span className='text-[#80ed99]'>AM</span> <br/> Musfiqur Rahman</h1>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="600"  className="absolute lg:bottom-0 lg:right-0 right-[20px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
+                    <div data-aos="fade-up" data-aos-delay="300"  className="absolute lg:bottom-0 lg:right-0 right-[20px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
                     
                 </div>
-                <div  data-aos="fade-up" data-aos-delay="1200" className="flex justify-center lg:justify-normal">
+                <div  data-aos="fade-up" data-aos-delay="300" className="flex justify-center lg:justify-normal">
                     <div className="mt-[30px] relative">
                     <div className="h-[40px] w-[215px] items-center flex rounded-2xl  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]">
                         <p className='text-[14px] font-Poppins ml-[40px] mt-[2px] uppercase'>Front-end Developer</p>
@@ -52,10 +54,12 @@ const Hero = ({showContent }) => {
                 </div>
                 </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="1400" className="flex justify-center lg:justify-normal lg:mt-0 mt-[50px]">
+                <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center lg:justify-normal lg:mt-0 mt-[50px]">
                     <div className="relative">
-                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px] rounded-2xl bg-[#80ed99]"></div>
-                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px] absolute bottom-0 right-0 blur-[60px] bg-[#80ed9950] rounded-2xl"></div>
+                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px]  ">
+                        <img src={profile} className='rounded-xl' alt="" />
+                    </div>
+                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px] -z-10 absolute bottom-0 right-0 blur-[60px] bg-[#80ed9950] rounded-2xl"></div>
                 </div>
                 </div>
             </div>
