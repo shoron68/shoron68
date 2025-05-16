@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
-    <div className=' lg:py-[124px] py-[60px]'>
+    <div id='portfolio' className=' lg:py-[124px] py-[60px] lg:pt-0 pt-[120px]'>
       <Container>
         <div className="">
           <h4 data-aos="fade-up" data-aos-delay="0" className='text-[28px] font-Poppins font-normal text-[#fff] text-center'>My Portfolio</h4>

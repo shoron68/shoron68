@@ -8,6 +8,7 @@ import Skills from "./components/Skills"
 import StickyScrollText from "./components/StickyScrollText"
 import { useState } from 'react';
 import Loader from './components/Loader';
+import BackToTopButton from "./components/BackToTopButton"
 
 function App() {
    const [showContent, setShowContent] = useState(false);
@@ -26,6 +27,7 @@ function App() {
      <MakeProjects/>
      <Portfolio/>
      <Footer/>
+     <BackToTopButton/>
     </>
   )
 }

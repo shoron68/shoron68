@@ -50,9 +50,9 @@ const Skills = () => {
 
 
     return (
-        <div className=" lg:py-[124px] py-[60px]">
+        <div id="skills" className=" lg:py-[124px] py-[60px] lg:pt-0 pt-[120px]">
             <Container>
-                <div data-aos="fade-up" data-aos-delay="0" className="bg-[#1B1B1B] border-[1px] border-[#ffffff69] rounded-2xl lg:py-[60px] py-[30px] lg:mx-0 mx-[30px] ">
+                <div data-aos="fade-up" data-aos-delay="0" className="bg-[#ffffff11] border-[1px] border-[#ffffff69] rounded-2xl lg:py-[60px] py-[30px] lg:mx-0 mx-[30px] ">
                     <h2 className="text-center text-white text-[24px] font-Poppins font-normal mb-10">My Skills</h2>
 
 

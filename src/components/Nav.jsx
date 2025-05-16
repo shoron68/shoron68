@@ -15,9 +15,10 @@ const Nav = () => {
                 </div>
                 <div className="lg:block hidden">
                     <ul className='flex gap-x-[20px]  '>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Home</a></li>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >About</a></li>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Skills</a></li>
+                        <li><a href="#hero" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Home</a></li>
+                        <li><a href="#about" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >About</a></li>
+                        <li><a href="#skills" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Skills</a></li>
+                        <li><a href="#portfolio" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Portfolio</a></li>
                         <li><a href="https://www.linkedin.com/in/musfiqur-rahman02/" target='blank' className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 py-[8px] px-[20px] rounded-[] bg-[#ffffff3f]  rounded-lg' >Hire Me</a></li>
                     </ul>
                 </div>
@@ -39,10 +40,11 @@ const Nav = () => {
                 </div>
                 <div className=" pl-[20px]">
                  <ul className=''>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Home</a></li>
-                        <li className='py-[20px]'><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300  ' >About</a></li>
-                        <li><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Skills</a></li>
-                        <li className='py-[20px]'><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 py-[8px] px-[20px] rounded-[] bg-[#ffffff3f]  rounded-lg' >Hire Me</a></li>
+                        <li><a href="#hero" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Home</a></li>
+                        <li className='py-[20px]'><a href="#about" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300  ' >About</a></li>
+                        <li><a href="#skills" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Skills</a></li>
+                        <li className='py-[20px]' ><a href="#portfolio" onClick={() => setShow(false)} className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 ' >Portfolio</a></li>
+                        <li ><a href="#" className='text-[16px] font-Poppins font-normal text-[#fff] hover:text-[#80ed99] duration-300 py-[8px] px-[20px] rounded-[] bg-[#ffffff3f]  rounded-lg' >Hire Me</a></li>
                     </ul>
                 </div>
                 

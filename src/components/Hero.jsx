@@ -32,7 +32,7 @@ const Hero = ({showContent }) => {
   }
 }, [showContent]);
   return (
-    <div className=' lg:py-[120px] py-[60px]'> 
+    <div id='hero' className=' lg:py-[120px] py-[60px] '> 
         <ParticlesBackground  />
         <Container>
             <div className="lg:flex justify-between items-center lg:mx-0 mx-[30px]">
@@ -42,7 +42,7 @@ const Hero = ({showContent }) => {
                         <span data-aos="fade-up" data-aos-delay="0" className='text-[#fff] font-Fira-Code lg:text-[18px] text-[16px] '><Typewriter options={{strings: [' console.log ("Hello")'], autoStart: true, loop: true,}}/></span>
                         <h1 data-aos="fade-up" data-aos-delay="200" className='lg:text-[60px] text-[26px] font-Audiowide text-[#fff] z-10 uppercase '>I <span className='text-[#80ed99]'>AM</span> <br/> Musfiqur Rahman</h1>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="300"  className="absolute lg:bottom-0 lg:right-0 right-[20px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
+                    <div data-aos="fade-up" data-aos-delay="300"  className="absolute lg:bottom-0 lg:right-0 right-[27px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
                     
                 </div>
                 <div  data-aos="fade-up" data-aos-delay="300" className="flex justify-center lg:justify-normal">
@@ -59,7 +59,7 @@ const Hero = ({showContent }) => {
                     <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px]  ">
                         <img src={profile} className='rounded-xl' alt="" />
                     </div>
-                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px] -z-10 absolute bottom-0 right-0 blur-[60px] bg-[#80ed9950] rounded-2xl"></div>
+                    <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px] -z-10 absolute bottom-0 right-0 blur-[50px] bg-[#80ed9950] rounded-2xl"></div>
                 </div>
                 </div>
             </div>

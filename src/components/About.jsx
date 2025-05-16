@@ -10,7 +10,8 @@ import profile2 from "../assets/profile2.jpg"
 
 const About = () => {
   return (
-    <div className='lg:py-[124px] py-[30px]'>
+    <div id='about' className='lg:py-[124px] lg:pt-0 pt-[120px]'>
+        
         <Container>
             <div data-aos="fade-up" data-aos-delay="0" className="border-[1px] border-[#ffffff70] lg:py-[80px] py-[40px] rounded-2xl bg-[#ffffff11] lg:mx-0 mx-[30px]">
                     <div className="">

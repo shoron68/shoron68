@@ -31,13 +31,12 @@ const Loader = ({ onFinish }) => {
     animate={
       isExpanded
         ? {
-            width: '100%',
-            height: '100%',
+            width: '3500px',
+            height: '3500px',
             transition: { duration: 1, ease: 'easeInOut' },
           }
         : {
             scale: [1, 1.5, 1],
-            rotate: [0, 360],
             transition: { repeat: Infinity, duration: 1 },
           }
     }
