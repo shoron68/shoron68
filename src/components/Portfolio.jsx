@@ -39,9 +39,9 @@ const Portfolio = () => {
           <div className='order-2 lg:order-1' >
             <div data-aos="fade-right" data-aos-delay="200" className="">
               <h2 className="text-[28px] font-Poppins text-center lg:text-start font-semibold bg-gradient-to-br from-[#ade6e7] to-[#80ed99] bg-clip-text text-transparent uppercase">
-                Hotel Service
+                Coffee Shop
               </h2>
-              <p className='text-[14px] text-center lg:text-start font-Poppins font-light text-[#ffffffa4] tracking-[1px] leading-[130%] mt-[20px]'>I developed a responsive hotel website using React.js and Tailwind CSS, focused on delivering a clean and user-friendly interface. The site includes key features like room listings, image galleries, a date picker, and smooth navigation. Using React, I built reusable components for sections like rooms, reviews, and FAQs. Tailwind CSS helped streamline styling and maintain consistency across the design. The result is a modern, mobile-friendly frontend that offers a seamless browsing experience for hotel guests.</p>
+              <p className='text-[14px] text-center lg:text-start font-Poppins font-light text-[#ffffffa4] tracking-[1px] leading-[130%] mt-[20px]'>I developed a responsive coffee shop website using React.js and Tailwind CSS, focused on delivering a clean and user-friendly interface. The site includes key features like menu listings, image galleries, a store locator, and smooth navigation. Using React, I built reusable components for sections like featured coffees, customer reviews, and FAQs. Tailwind CSS helped streamline styling and maintain consistency across the design. The result is a modern, mobile-friendly frontend that offers a seamless browsing experience for coffee lovers.</p>
               <div className="mt-[30px] lg:justify-normal flex justify-center ">
                 <div className="flex gap-x-[20px] lg:order-0 order-1">
                   <a href="https://coffe-shop-dun.vercel.app/" target='blank' className='text-[14px] font-Poppins font-normal text-[#fff] py-[10px] px-[15px]  bg-[#212121] hover:text-[#80ed99] duration-300 rounded-[5px]'> View Project</a>
