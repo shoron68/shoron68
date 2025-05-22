@@ -9,13 +9,18 @@ import StickyScrollText from "./components/StickyScrollText"
 import { useState } from 'react';
 import Loader from './components/Loader';
 import BackToTopButton from "./components/BackToTopButton"
+import { MouseTrackerProvider } from '@devdogukan/mouse-tracker';
+import CustomTracker from "./components/CustomTracker";
+
 
 function App() {
    const [showContent, setShowContent] = useState(false);
 
   return (
     <>
-    
+    <MouseTrackerProvider>
+<CustomTracker/>
+
     <Nav/>
     {!showContent && <Loader onFinish={() => setShowContent(true)} />}
       {showContent && <Hero showContent={showContent} />}
@@ -28,6 +33,7 @@ function App() {
      <Portfolio/>
      <Footer/>
      <BackToTopButton/>
+    </MouseTrackerProvider>
     </>
   )
 }

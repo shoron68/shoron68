@@ -52,13 +52,15 @@ const Skills = () => {
     return (
         <div id="skills" className=" lg:py-[124px] py-[60px] lg:pt-0 pt-[120px]">
             <Container>
-                <div data-aos="fade-up" data-aos-delay="0" className="bg-[#ffffff11] border-[1px] border-[#ffffff69] rounded-2xl lg:py-[60px] py-[30px] lg:mx-0 mx-[30px] ">
-                    <h2 className="text-center text-white text-[24px] font-Poppins font-normal mb-10">My Skills</h2>
+                <div data-aos="fade-up" data-aos-duration="100" className="bg-[#ffffff11] border-[1px] border-[#ffffff69] rounded-2xl lg:py-[60px] py-[30px] lg:mx-0 mx-[30px] ">
+                    <div data-aos="fade-up" data-aos-duration="300" className="">
+                        <h2  className="text-center text-white text-[24px] font-Poppins font-normal mb-10">My Skills</h2>
+                    </div>
 
 
                     <div className="grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-8 lg:mx-[100px] lg:gap-y-10 gap-y-10 mx-[30px]">
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <PiFileJsDuotone />
                                 </div>
@@ -77,7 +79,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="300" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <RiTailwindCssFill />
                                 </div>
@@ -96,7 +98,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="400" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <FaCss3 />
                                 </div>
@@ -115,7 +117,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="200" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <FaReact />
                                 </div>
@@ -134,7 +136,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="300" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <FaFigma />
                                 </div>
@@ -153,7 +155,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div >
-                            <div data-aos="fade-right" data-aos-delay="200" className="flex items-center gap-3 w-full">
+                            <div data-aos="fade-right" data-aos-duration="400" className="flex items-center gap-3 w-full">
                                 <div className="text-[#80ed99] text-[25px]">
                                     <RiBootstrapLine />
                                 </div>
@@ -175,7 +177,7 @@ const Skills = () => {
 
                     <div className="lg:flex lg:gap-x-[100px] lg:gap-y-0 gap-y-10 justify-center  lg:mt-[100px] mt-[70px] ">
                         {skills.map((skill, index) => (
-                            <div data-aos="zoom-in" key={index} className="text-center lg:py-0 py-[30px] ">
+                            <div data-aos="zoom-in" data-aos-duration="300" key={index} className="text-center lg:py-0 py-[30px] ">
                                 <div className="flex justify-center mb-2 text-[#80ed99] text-[30px]">{skill.icon}</div>
                                 <p className="mb-1 text-[#fff] font-Poppins text-[16px] font-light ">{skill.label}</p>
                                 <div className="flex items-center justify-center gap-2">
@@ -192,7 +194,7 @@ const Skills = () => {
 
                 <div className="grid lg:grid-cols-3 grid-rows-1 gap-12 mt-[150px] lg:mx-0 mx-[30px]">
                     <div >
-                        <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
+                        <div data-aos="zoom-in" data-aos-duration="200" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
                             <div className="py-[20px] px-[20px] bg-[#212121] rounded-xl">
                                 <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
                                     <FaReact className="h-[40px] w-[40px] text-[#38a3a5]" />
@@ -207,7 +209,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div >
-                        <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
+                        <div data-aos="zoom-in" data-aos-duration="350" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
                             <div className="py-[20px] px-[20px] bg-[#212121] rounded-xl">
                                 <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
                                     <FaRegFileCode eact className="h-[40px] w-[40px] text-[#38a3a5] " />
@@ -220,7 +222,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div >
-                        <div data-aos="zoom-in" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
+                        <div data-aos="zoom-in" data-aos-duration="450" className="p-[2px] rounded-xl bg-gradient-to-br from-[#38a3a5] to-[#80ed99] hover:scale-103 duration-300">
                             <div className="py-[20px] px-[20px]  bg-[#212121] rounded-xl">
                                 <div className="h-[50px] w-[50px] rounded-[5px] bg-[#fff] flex items-center justify-center">
                                     <AiOutlineLayout eact className="h-[40px] w-[40px] text-[#38a3a5] " />

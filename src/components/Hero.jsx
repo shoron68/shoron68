@@ -23,7 +23,7 @@ const Hero = ({showContent }) => {
       offset: 200,
       duration: 600,
       easing: 'ease-in-sine',
-      once: true,
+      once: false,
     });
 
     setTimeout(() => {
@@ -39,10 +39,10 @@ const Hero = ({showContent }) => {
                 <div className="">
                 <div className="relative">
                     <div className="">
-                        <span data-aos="fade-up" data-aos-delay="0" className='text-[#fff] font-Fira-Code lg:text-[18px] text-[16px] '><Typewriter options={{strings: [' console.log ("Hello")'], autoStart: true, loop: true,}}/></span>
-                        <h1 data-aos="fade-up" data-aos-delay="200" className='lg:text-[60px] text-[26px] font-Audiowide text-[#fff] z-10 uppercase '>I <span className='text-[#80ed99]'>AM</span> <br/> Musfiqur Rahman</h1>
+                        <span data-aos="fade-up" data-aos-duration="100" className='text-[#fff] font-Fira-Code lg:text-[18px] text-[16px] '><Typewriter options={{strings: [' console.log ("Hello")'], autoStart: true, loop: true,}}/></span>
+                        <h1 data-aos="fade-up" data-aos-duration="200" className='lg:text-[60px] text-[26px] font-Audiowide text-[#fff] z-10 uppercase '>I <span className='text-[#80ed99]'>AM</span> <br/> Musfiqur Rahman</h1>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="300"  className="absolute lg:bottom-0 lg:right-0 right-[27px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
+                    <div data-aos="fade-up" data-aos-duration="300"  className="absolute lg:bottom-0 lg:right-0 right-[27px] h-[10px] lg:w-[306px] w-[131px]  bg-gradient-to-br from-[#38a3a5] to-[#80ed99]"></div>
                     
                 </div>
                 <div  data-aos="fade-up" data-aos-delay="300" className="flex justify-center lg:justify-normal">
@@ -54,7 +54,7 @@ const Hero = ({showContent }) => {
                 </div>
                 </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="300" className="flex justify-center lg:justify-normal lg:mt-0 mt-[50px]">
+                <div data-aos="zoom-in" data-aos-duration="400" className="flex justify-center lg:justify-normal lg:mt-0 mt-[50px]">
                     <div className="relative">
                     <div className="lg:h-[500px] lg:w-[450px] h-[300px] w-[250px]  ">
                         <img src={profile} className='rounded-xl' alt="" />
@@ -63,7 +63,7 @@ const Hero = ({showContent }) => {
                 </div>
                 </div>
             </div>
-        <div data-aos="fade-up" data-aos-delay="0" className="lg:mx-0 mx-[30px]">
+        <div data-aos="fade-up" data-aos-duration="100" className="lg:mx-0 mx-[30px]">
 
               <div className="bg-[#FEF9E1] rounded-lg lg:py-5 py-3 overflow-hidden w-full mt-[60px] ">
                   <div className="flex w-max animate-marquee">
@@ -86,7 +86,7 @@ const Hero = ({showContent }) => {
               </div>
         </div>
 
-    <div data-aos="fade-up" data-aos-delay="0" className="flex justify-center  lg:pt-10 pt-10">
+    <div data-aos="fade-up" data-aos-duration="200" className="flex justify-center  lg:pt-10 pt-10">
                        <div className="">
                          <div className="h-[50px] w-[35px] border-[3px] border-[#ffffff5b] rounded-[30px] flex justify-center">
                             <div className="h-[8px] w-[4px] rounded-2xl bg-[#fff] animate-cursor"></div>
