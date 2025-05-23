@@ -37,7 +37,7 @@ const Portfolio = () => {
 
         <div className="grid lg:grid-cols-3 lg:grid-rows-1 lg:gap-12 items-center lg:mt-[100px] mt-[60px] lg:mx-0 mx-[30px]">
           <div className='order-2 lg:order-1' >
-            <div data-aos="fade-right" data-aos-delay="200" className="">
+            <div data-aos="fade-right" data-aos-duration="200" className="">
               <h2 className="text-[28px] font-Poppins text-center lg:text-start font-semibold bg-gradient-to-br from-[#ade6e7] to-[#80ed99] bg-clip-text text-transparent uppercase">
                 Coffee Shop
               </h2>
@@ -50,7 +50,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-right" data-aos-delay="200" className="lg:col-span-2 order-1 lg:order-2 lg:mb-0 mb-[30px]">
+          <div data-aos="fade-right" data-aos-duration="200" className="lg:col-span-2 order-1 lg:order-2 lg:mb-0 mb-[30px]">
             <img src={image2} className='rounded-xl' alt="" />
           </div>
         </div>
